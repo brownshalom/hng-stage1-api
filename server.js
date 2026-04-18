@@ -17,9 +17,9 @@ app.get("/health", (req, res) => {
 
 app.get("/me", (req, res) => {
   res.status(200).json({
-    name: "Your Full Name",
-    email: "you@example.com",
-    github: "https://github.com/yourusername"
+    name: "brownshalom",
+    email: "brown.shalom90@gmail.com",
+    github: "https://github.com/brownshalom"
   });
 });
 
